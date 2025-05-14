@@ -36,22 +36,6 @@ project/
 - [Radix UI](https://www.radix-ui.com/)
 - [Lucide React](https://lucide.dev/)
 - [next-themes](https://github.com/pacocoursey/next-themes) (tema dinâmico)
-
- Como rodar localmente
-```bash
-# Instale as dependências
-npm install
-
-# Rode o projeto em modo desenvolvimento
-npm run dev
-```
-Acesse http://localhost:3000
-
- Deploy na Vercel
-1. Faça login na [Vercel](https://vercel.com/)
-2. Crie um novo projeto e conecte ao seu repositório do GitHub
-3. A Vercel detecta Next.js automaticamente. Basta confirmar e aguardar o deploy
-
  Deploy manual (Netlify ou outros)
 1. Rode `npm run build` para gerar a build
 2. Faça upload da pasta `.next` e arquivos necessários conforme a plataforma
