@@ -34,20 +34,27 @@ const HeroSection = () => {
             </div>
             
             <div className={cn(
-              "flex flex-col sm:flex-row gap-4 opacity-0",
+              "flex flex-col sm:flex-row gap-4 mb-12 opacity-0",
               isVisible && "animate-fade-in animate-delay-200"
             )}>
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
+              <Button 
+                size="lg" 
+                className="bg-accent hover:bg-accent/90 text-accent-foreground whitespace-nowrap"
+              >
                 Explorar Produtos
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 whitespace-nowrap"
+              >
                 Sobre Nossa Marca
               </Button>
             </div>
             
             <div className={cn(
-              "grid grid-cols-3 gap-4 mt-12 opacity-0",
+              "grid grid-cols-3 gap-4 opacity-0",
               isVisible && "animate-fade-in animate-delay-300"
             )}>
               <div className="border border-primary-foreground/20 rounded-lg p-4 text-center">
